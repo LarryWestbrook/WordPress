@@ -1,4 +1,4 @@
-# Wordpress
+# WordPress
 
 ![image](/img/mejores-plugins-wordpress.jpeg)
 
