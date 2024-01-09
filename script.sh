@@ -83,7 +83,7 @@ mariadb -u root <<< "FLUSH PRIVILEGES;"
 
 
 # Borramos el index.html de Apache
-rm /var/www/html/index.html
+rm -r /var/www/html/index.html
 
 
 # Configuramos el archivo wp-config.php #
