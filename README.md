@@ -348,4 +348,4 @@ chown -R www-data:www-data /var/www/html/
 
 # 3 Licencia
 
-[image](/img/licencia.png)
+![image](/img/licencia.png)
