@@ -10,11 +10,7 @@
   - 1.3. Instalación de WordPress en el directorio raíz
   - 1.4. Instalación de WordPress en su propio directorio
   - 1.5. Configuración de las security keys de WordPress
-  - 1.6. Tareas a realizar
-  - 1.7. Entregables
-    - 1.7.1. Documento técnico
-    - 1.7.2. Scripts de Bash
-
+ 
 * 2. Referencias
 
 * 3. Licencia
