@@ -97,6 +97,21 @@ sed -i "s/username_here/$WORDPRESS_DB_USER/" /var/www/html/wordpress/wp-config.p
 sed -i "s/password_here/$WORDPRESS_DB_PASSWORD/" /var/www/html/wordpress/wp-config.php
 #sed -i "s/localhost/$IP_MYSQL_SERVER/" /var/www/html/wordpress/wp-config.php
 
+# Configuracion .htaccess
+cat <<EOF >>/var/www/html/.htaccess
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+EOF
+
+
 # Habilitamos el módulo rewrite (reescritura de las url)
 a2enmod rewrite 
 
