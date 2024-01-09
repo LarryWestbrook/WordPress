@@ -4,16 +4,16 @@
 
 # Índice
 
-* 1. Instalación de WordPress en una instancia EC2 de AWS
+- 1. Instalación de WordPress en una instancia EC2 de AWS
   - 1.1. ¿Qué es un Sistema de Gestión de Contenidos (CMS - Content Management System)?
   - 1.2. ¿Qué es WordPress?
   - 1.3. Instalación de WordPress en el directorio raíz
   - 1.4. Instalación de WordPress en su propio directorio
   - 1.5. Configuración de las security keys de WordPress
  
-* 2. Referencias
+- 2. Referencias
 
-* 3. Licencia
+- 3. Licencia
 
 # 1. Instalación de WordPress en una instancia EC2 de AWS
 
